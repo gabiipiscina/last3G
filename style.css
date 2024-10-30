@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        :root{
+            --bg-color: rgb(209, 47, 123);
+            --primar-color: rgb(51, 137, 207);
+            --secundary-color: rgb(157, 17, 170);
+            --fonte-selecionada:  "PT Serif", serif;
+        }
+        body{
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+        }
+        .barra{
+            width: 100%;
+            padding: 2rem;
+            position: fixed;
+            box-shadow: 1px 2px var(--secundary-color);
+        }
